@@ -1,5 +1,5 @@
 <!-- Navbar -->
-<nav class="navbar px-5 py-2 mb-5 navbar-expand-lg navbar-dark shadow-5-strong">
+<nav class="navbar px-5 py-2 mb-5 navbar-expand-lg navbar-dark shadow-5-strong sticky-top">
   <!-- Container wrapper -->
   <div class="container-fluid">
     <!-- Navbar brand -->
