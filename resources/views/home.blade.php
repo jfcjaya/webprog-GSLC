@@ -2,9 +2,9 @@
 
 @section('title', 'Home Page')
 
-@section('content')
+@section('home-page')
 <h2>Introduction</h2>
-<p>This is a simple website made as part of GSLC 1 of the Web Programming Course COMP6681001.</p>
+<p>This is a simple website made as part of multiple GSLCs of the Web Programming Course COMP6681001.</p>
 
 <h2>Credit</h2>
 <ul>
@@ -17,6 +17,6 @@
 
 <h2>Loops!</h2>
 <p>This looks funny since anyone opening this website should be getting it from my GitHub anyway :D</p>
-<p>Anyway, visit this <a href="https://github.com/jfcjaya/webprog-gslc-session5">link</a> to open the GitHub page.</p>
+<p>Anyway, visit this <a href="https://github.com/jfcjaya/webprog-GSLC">link</a> to open the GitHub page.</p>
 
 @endsection

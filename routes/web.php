@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\SpendingController;
+use App\Http\Controllers\IncomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,25 +23,5 @@ Route::get('/home', function () {
     return view('home');
 });
 
-Route::get('/spending', function() {
-    $spend = [
-        "Uang Kuliah" => 2000,
-        "Sewa Kos" => 300,
-        "Makanan" => 200,
-        "Listrik" => 50,
-        "Transportasi" => 50,
-        "Hiburan" => 500
-    ];
-
-    return view('spending')
-        -> with('spending', $spend)
-        -> with('budget', '3000');
-});
-
-Route::get('/income', function() {
-    $income = [];
-
-    return view('income')
-        -> with('income', $income)
-        -> with('budget', '3000');
-});
+Route::get('/spending', [SpendingController::class, 'index']);
+Route::get('/income', [IncomeController::class, 'index']);

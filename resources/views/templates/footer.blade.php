@@ -1,6 +1,3 @@
-<div class="container">
-    <div class="border-bottom border-primary"></div>
-    <footer class="py-5">
-        <p class="text-center text-muted">LH01 - 2440030582 - Gregorius Emmanuel Henry</p>
-    </footer>
-</div>
+<footer class="px-5 py-2 mt-2 py-2 bg-dark">
+    <p class="text-center text-white">LH01 - 2440030582 - Gregorius Emmanuel Henry</p>
+</footer>

@@ -1,0 +1,7 @@
+body {
+    background-image: url("https://img.freepik.com/free-photo/navy-blue-smoky-art-abstract-background_53876-102669.jpg?w=996&t=st=1668487297~exp=1668487897~hmac=f371b0b2438680069f198da3db4f99a3ca07a93a123917a8e824bc2b0cc76ece");
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+    color: white;
+}

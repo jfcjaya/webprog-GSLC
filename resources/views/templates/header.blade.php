@@ -1,21 +1,29 @@
-<div class="container">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="home">GSLC 1 Web Programming</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="home">Home</a>
+<!-- Navbar -->
+<nav class="navbar px-5 py-2 mb-5 navbar-expand-lg navbar-dark shadow-5-strong">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">GSLC Web Programming</a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Left links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+          <a class="nav-link {{ Request::is('home') ? 'active':'' }}" href="home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="spending">Spendings</a>
+          <a class="nav-link {{ Request::is('spending') ? 'active':'' }}" href="spending">Spendings</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="income">Income</a>
+          <a class="nav-link {{ Request::is('income') ? 'active':'' }}" href="income">Income</a>
         </li>
       </ul>
+      <!-- Left links -->
     </div>
-  </nav>
-</div>
+    <!-- Collapsible wrapper -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+
+<!-- credit: https://mdbootstrap.com/how-to/bootstrap/navbar-transparent/ -->
